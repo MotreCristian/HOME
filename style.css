@@ -1,0 +1,45 @@
+body {
+    width: 45em;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: rgb(97, 204, 168);
+}
+
+h2 {
+    padding: 0.5em;
+    margin-left: -1em;
+    width: 20em;
+    background-color: orange;
+    color: white;
+}
+
+form {
+    max-width: 400px;
+    margin-left: 1em;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: #00ffc3;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+img {
+    width: 20em;
+    margin-top: -10em;
+    margin-left: 25em;
+}
